@@ -1,7 +1,7 @@
 ---
 layout: categories
 icon: fas fa-map
-source: categories/level-design/
+redirect_to: categories/level-design/
 order: 2
 ---
 

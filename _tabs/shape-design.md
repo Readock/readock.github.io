@@ -1,6 +1,6 @@
 ---
 layout: categories
 icon: fas fa-shapes
-source: categories/shape-design/
+redirect_to: categories/shape-design/
 order: 1
 ---
