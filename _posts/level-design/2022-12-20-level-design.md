@@ -5,8 +5,6 @@ tags: [level-design]     # TAG names should always be lowercase
 author: felix
 ---
 
-# Level-Design
-
 ## Metrics
 
 metrics are the sense of scale, distance, and 

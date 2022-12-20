@@ -1,8 +1,12 @@
 ---
 ---
 
-$tab-count: {{ site.tabs | size | plus: 2 }};
+$tab-count: {{ site.tabs | size | plus: 3 }};
 
 @import "{{ site.theme }}";
 
 // add your style below
+.fa-unreal {
+    content:url('../icons/unreal_engine.svg'); 
+    transform: translate(0px, 4px);
+}

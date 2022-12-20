@@ -1,18 +1,18 @@
 ---
-title: "Shape-Design"
+layout: page
+title: "Test Site"
+description: this is a test
 categories: [Shape-Design]
 tags: [shape-design]     # TAG names should always be lowercase
 author: felix
-
-# images
-images_bms: "./resources/bms.png" 
 ---
 
-## B-M-S
+## Teeeest
 
 Big medium small
 
-![local]({{images_bms}})
-![assets](/assets/bms.png)
+![local](./resources/bms.png)
+
+![assets](/assets/bms.png){:width="50%"}
 
 {% youtube f_Pcu6wTzoA %}
