@@ -1,6 +1,6 @@
 ---
-layout: categories
+layout: redirect
 icon: fas fa-shapes
-redirect_to: categories/shape-design/
+navigate_to: categories/shape-design
 order: 1
 ---

@@ -1,7 +1,7 @@
 ---
-layout: categories
+layout: redirect
 icon: fas fa-map
-redirect_to: categories/level-design/
+navigate_to: categories/level-design/
 order: 2
 ---
 
