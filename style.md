@@ -66,3 +66,7 @@ class UFoo : public UObject
       {}
 };
 ```
+
+![assets](/assets/bms.png){:width="50%"}
+
+{% youtube f_Pcu6wTzoA %}

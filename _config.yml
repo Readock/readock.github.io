@@ -157,7 +157,7 @@ defaults:
     values:
       comments: false
   - scope:
-      path: ''
+      path: _tabs
       type: tabs             # see `site.collections`
     values:
       layout: page
