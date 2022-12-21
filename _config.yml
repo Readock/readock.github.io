@@ -32,8 +32,8 @@ url: ''
 github:
   username: readock             # change to your github username
 
-twitter:
-  username:             # change to your twitter username
+#twitter:
+#  username:             # change to your twitter username
 
 social:
   # Change to your full name.
@@ -151,14 +151,17 @@ defaults:
   - scope:
       path: unreal
     values:
+      toc: true
       layout: "default"
   - scope:
       path: shape-design
     values:
+      toc: true
       layout: "default"
   - scope:
       path: level-design
     values:
+      toc: true
       layout: "default"
   - scope:
       path: _drafts

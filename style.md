@@ -4,6 +4,7 @@ title: Style Test
 description: See the various html elements all on one page
 searchable: true
 author: felix
+toc: true
 ---
 
 # Header 1 `code` [link](./) and [`code` link](./)

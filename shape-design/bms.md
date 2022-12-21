@@ -11,7 +11,7 @@ author: felix
 
 Big medium small
 
-![local](./resources/bms.png)
-![assets](/assets/bms.png)
+## Example
 
-{% youtube f_Pcu6wTzoA %}
+![example](./resources/bms.png)
+_example of bms by [YeongJin](https://www.artstation.com/user-8966)_
