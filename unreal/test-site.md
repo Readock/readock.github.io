@@ -1,9 +1,10 @@
 ---
 layout: page
-title: "Test Site"
+title: Test Site
 description: this is a test
-categories: [Shape-Design]
-tags: [shape-design]     # TAG names should always be lowercase
+categories: [Unreal]
+breadcrumb_path: "Unreal"
+searchable: true
 author: felix
 ---
 

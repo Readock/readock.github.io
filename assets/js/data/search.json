@@ -1,0 +1,24 @@
+---
+---
+[
+  {% assign searchable_pages = site.pages | where: "searchable", "true" %}
+  {% for page in searchable_pages %}
+    {
+
+      "title"    : "{{ page.title | escape }}",
+      "categories": {{ page.categories | join: ', ' | jsonify }},
+      "tags"     : "{{ page.tags | join: ', ' }}",
+      "url"      : {{ page.url | relative_url | jsonify }},
+      "date"     : "{{ page.date }}",
+      {% include no-linenos.html content=page.content %}
+      {% assign _content = content | strip_html | strip_newlines %}
+      {% if page.description != empty %}
+      "snippet": "{{ page.description | escape }}",
+      {% else %}
+      "snippet": {{ _content | truncate: 200 | jsonify }},
+      {% endif %}
+      "content": {{ _content | jsonify }}
+    } 
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

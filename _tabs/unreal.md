@@ -1,12 +1,14 @@
 ---
 layout: page
+title: Unreal
 icon: fas fa-unreal
-navigate_to: categories/shape-design
 order: 10
 ---
 
-anything related to unreal engine
+Tipps related to the unreal engine
 
-[Test-Site](/UE/test-site)
+[Test-Site](/unreal/test-site)
 
-[style-test](/UE/style)
+[style-test](/unreal/style)
+
+> TODO: test breadcrumbs -> maybe remove home

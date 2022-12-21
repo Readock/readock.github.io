@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Style Visualization
+title: Style Test
 description: See the various html elements all on one page
-categories: [test]
-tags: [test]     # TAG names should always be lowercase
+searchable: true
 author: felix
 ---
 
@@ -48,10 +47,12 @@ Sun
 
 Moon
 : the natural satellite of the earth, visible by reflected light from the sun
+: new line
 
 ## Block Quote
 
 > This line shows the _block quote_.
+
 ## Prompts
 
 > An example showing the `tip` type prompt.

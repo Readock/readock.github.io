@@ -1,7 +1,9 @@
 ---
-title: "Level-Design"
+layout: page
+title: Metrics
 categories: [Level-Design]
-tags: [level-design]     # TAG names should always be lowercase
+breadcrumb_path: "Level-Design"
+searchable: true
 author: felix
 ---
 

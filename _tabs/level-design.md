@@ -1,8 +1,11 @@
 ---
-layout: redirect
+layout: page
+title: Level Design
 icon: fas fa-map
-navigate_to: categories/level-design/
 order: 30
 ---
 
-# Level-Design
+Collection of best practices for creating a level
+
+
+[Metrics](/level-design/metrics)

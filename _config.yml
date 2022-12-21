@@ -116,7 +116,7 @@ assets:
 pwa:
   enabled: true   # the option for PWA feature
 
-paginate: 10
+# paginate: 10 #disabled because post feature not used
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -149,7 +149,7 @@ defaults:
       permalink: /posts/:title/
       swcache: true
   - scope:
-      path: UE/
+      path: ''
     values:
       layout: "default"
   - scope:

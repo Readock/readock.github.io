@@ -1,6 +1,11 @@
 ---
-layout: redirect
+layout: page
+title: Shape Design
 icon: fas fa-shapes
-navigate_to: categories/shape-design
 order: 20
 ---
+
+Principles to create appealing shapes
+
+
+[Big Medium Small](/shape-design/bms)
