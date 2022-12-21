@@ -12,7 +12,7 @@
       "date"     : "{{ page.date }}",
       {% include no-linenos.html content=page.content %}
       {% assign _content = content | strip_html | strip_newlines %}
-      {% if page.description != empty %}
+      {% if page.description != nil and page.description != empty %}
       "snippet": "{{ page.description | escape }}",
       {% else %}
       "snippet": {{ _content | truncate: 200 | jsonify }},

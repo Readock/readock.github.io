@@ -149,7 +149,15 @@ defaults:
       permalink: /posts/:title/
       swcache: true
   - scope:
-      path: ''
+      path: unreal
+    values:
+      layout: "default"
+  - scope:
+      path: shape-design
+    values:
+      layout: "default"
+  - scope:
+      path: level-design
     values:
       layout: "default"
   - scope:
