@@ -5,7 +5,7 @@ icon: fas fa-shapes
 order: 20
 ---
 
-Principles to create appealing shapes
+Shape design is important when creating visual designs.
 
-
-[Big Medium Small](/shape-design/bms)
+* [**Principles**](/shape-design/principles)
+* [**Examples**](/shape-design/examples)
