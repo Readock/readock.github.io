@@ -39,6 +39,7 @@ Maps user inputs to Actions and can be dynamically added, removed, or prioritize
 > Its probably good to use the `triggered` event as the default option to implement behaviour for actions (Eg. using `Started` and then adding triggers might produce unexpected behaviour)
 {: .prompt-tip }
 
+
 ## Subscribe to Actions
 
 To add an input action listener in blueprints you can right click in the blueprints event graph and type in the name of your input action data asset. 
